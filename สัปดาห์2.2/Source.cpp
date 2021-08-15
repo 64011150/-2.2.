@@ -6,6 +6,7 @@ int main() {
 	scanf_s("%f", &b);
 	float c;
 	c = a / b / b;
+	printf("%f\n", c);
 	if (18.5 > c)
 		printf("Underweight");
 	else if (24.9 >= c)
